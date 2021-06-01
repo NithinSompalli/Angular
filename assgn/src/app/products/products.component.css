@@ -1,0 +1,36 @@
+img {
+    width:200px;
+    height:200px;
+}
+p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+}
+.productContainer {
+    width: 21%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #ccc;
+}
+span {
+    float:left;
+    padding: 10px 0;
+}
+button {
+    background: #239be6;
+    border: none;
+    text-transform: none;
+    padding: 10px 20px;
+    height: 45px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 rgb(35 155 230 / 20%);
+    float:right;
+}

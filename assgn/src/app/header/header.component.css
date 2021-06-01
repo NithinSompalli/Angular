@@ -1,0 +1,29 @@
+#header {
+    background-color: grey;
+    padding :20px;
+}
+img{
+    max-width:100px;
+}
+
+.search-container{
+    width: 220px;
+    float: right;
+}
+button {
+    background: #239be6;
+    border: none;
+    text-transform: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 3px 6px 0 rgb(35 155 230 / 20%);
+    position: relative;
+    top: 1px;
+}
+.search-container input {
+    height: 33px;
+    border: none;
+}

@@ -1,0 +1,9 @@
+<div id="header" [ngStyle]= "{'background-color': color}">
+    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" altname="ECommerce_logo" />
+    <div class="search-container">
+        
+        <input [(ngModel)]="value" /> 
+          <button (click)=search(value)>Search</button>
+       
+      </div>
+</div>

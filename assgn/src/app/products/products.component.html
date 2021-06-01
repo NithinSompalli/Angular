@@ -1,0 +1,14 @@
+<div class="productContainer" *ngFor = "let product of products;let i = index">
+    <img src="{{product.imageurl}}" />
+    <h4> {{product.name}}</h4>
+    <p>{{product.description}}</p>
+    <div>
+        <span><strong>₹{{product.price}}</strong></span>
+        <button (click)="displayProduct(product)">Add To Cart</button>
+    </div>
+</div>
+   
+    
+   
+    
+    
